@@ -18,6 +18,32 @@ namespace kitapsepetimvc.Controllers
             _context = context;
         }
 
+        //Yazar ya da kitap adına göre arama
+        [HttpGet]
+        public async Task<JsonResult> Search(string query)
+        {
+            if (string.IsNullOrWhiteSpace(query))
+            {
+                return Json(Array.Empty<object>());
+            }
+
+            var results = await _context.Books
+                .Where(b => b.Title.Contains(query) || b.Author.Contains(query))
+                .Select(b => new
+                {
+                    b.Id,
+                    b.Title,
+                    b.Author,
+                    b.Price,
+                    b.ImageUrl,
+                    Stock = b.Stock
+                })
+                .ToListAsync();
+
+            return Json(results);
+        }
+
+
         public async Task<IActionResult> Index(
             string category = null,
             string sortOrder = null,
