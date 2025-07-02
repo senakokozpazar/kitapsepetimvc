@@ -1,0 +1,48 @@
+﻿body {
+    background-color: #f3ede7;
+    color: #4b3b2b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: #6f4e37;
+}
+
+    .navbar .nav-link {
+        color: #f0e6d2;
+    }
+
+        .navbar .nav-link:hover, .navbar .nav-link.active {
+            color: #d9c8b6;
+        }
+
+.btn-primary {
+    background-color: #a67b5b;
+    border-color: #a67b5b;
+}
+
+    .btn-primary:hover {
+        background-color: #8c674a;
+        border-color: #8c674a;
+    }
+
+.btn-outline-primary {
+    color: #a67b5b;
+    border-color: #a67b5b;
+}
+
+    .btn-outline-primary:hover {
+        background-color: #a67b5b;
+        color: white;
+    }
+
+.card {
+    border: none;
+    border-radius: 15px;
+    background-color: #fff7f0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}

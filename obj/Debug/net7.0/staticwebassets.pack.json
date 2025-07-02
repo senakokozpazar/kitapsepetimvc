@@ -1,0 +1,401 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/obj/Debug/net7.0/scopedcss/projectbundle/kitapsepetimvc.bundle.scp.css",
+      "PackagePath": "staticwebassets/kitapsepetimvc.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/1.jpg",
+      "PackagePath": "staticwebassets/images/books/1.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/10.jpg",
+      "PackagePath": "staticwebassets/images/books/10.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/11.jpg",
+      "PackagePath": "staticwebassets/images/books/11.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/12.jpg",
+      "PackagePath": "staticwebassets/images/books/12.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/13.jpg",
+      "PackagePath": "staticwebassets/images/books/13.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/14.jpg",
+      "PackagePath": "staticwebassets/images/books/14.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/15.jpg",
+      "PackagePath": "staticwebassets/images/books/15.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/16.jpg",
+      "PackagePath": "staticwebassets/images/books/16.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/17.jpg",
+      "PackagePath": "staticwebassets/images/books/17.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/18.jpg",
+      "PackagePath": "staticwebassets/images/books/18.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/19.jpg",
+      "PackagePath": "staticwebassets/images/books/19.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/1984.jpg",
+      "PackagePath": "staticwebassets/images/books/1984.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/20.jpg",
+      "PackagePath": "staticwebassets/images/books/20.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/21.jpg",
+      "PackagePath": "staticwebassets/images/books/21.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/22.jpg",
+      "PackagePath": "staticwebassets/images/books/22.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/23.jpg",
+      "PackagePath": "staticwebassets/images/books/23.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/24.jpg",
+      "PackagePath": "staticwebassets/images/books/24.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/3.jpg",
+      "PackagePath": "staticwebassets/images/books/3.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/4.jpg",
+      "PackagePath": "staticwebassets/images/books/4.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/5.jpg",
+      "PackagePath": "staticwebassets/images/books/5.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/6.jpg",
+      "PackagePath": "staticwebassets/images/books/6.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/8.jpg",
+      "PackagePath": "staticwebassets/images/books/8.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/9.jpg",
+      "PackagePath": "staticwebassets/images/books/9.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/Ince_memed.jpg",
+      "PackagePath": "staticwebassets/images/books/Ince_memed.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/ask.jpg",
+      "PackagePath": "staticwebassets/images/books/ask.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/brave_new_world.jpg",
+      "PackagePath": "staticwebassets/images/books/brave_new_world.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/catcher_in_the_rye.jpg",
+      "PackagePath": "staticwebassets/images/books/catcher_in_the_rye.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/great_gatsby.jpg",
+      "PackagePath": "staticwebassets/images/books/great_gatsby.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/kurk_mantolu_madonna.jpg",
+      "PackagePath": "staticwebassets/images/books/kurk_mantolu_madonna.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/masumiyet_muzesi.jpg",
+      "PackagePath": "staticwebassets/images/books/masumiyet_muzesi.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/moby_dick.jpg",
+      "PackagePath": "staticwebassets/images/books/moby_dick.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/nutuk.jpg",
+      "PackagePath": "staticwebassets/images/books/nutuk.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/serenad.jpg",
+      "PackagePath": "staticwebassets/images/books/serenad.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/images/books/to_kill_a_mockingbird.jpg",
+      "PackagePath": "staticwebassets/images/books/to_kill_a_mockingbird.jpg"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.kitapsepetimvc.props",
+      "PackagePath": "build\\kitapsepetimvc.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.kitapsepetimvc.props",
+      "PackagePath": "buildMultiTargeting\\kitapsepetimvc.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.kitapsepetimvc.props",
+      "PackagePath": "buildTransitive\\kitapsepetimvc.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.kitapsepetimvc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
