@@ -73,5 +73,4 @@
 /Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/obj/Debug/net7.0/kitapsepetimvc.pdb
 /Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/obj/Debug/net7.0/kitapsepetimvc.genruntimeconfig.cache
 /Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/obj/Debug/net7.0/ref/kitapsepetimvc.dll
-/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/obj/Debug/net7.0/kitapsep.3D70742D.Up2Date
-/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/obj/Debug/net7.0/kitapsepetimvc.sourcelink.json
+/Users/d1-19/Projects/kitapsepetimvc/kitapsepetimvc/obj/Debug/net7.0/kitapsepetimvc.csproj.CopyComplete

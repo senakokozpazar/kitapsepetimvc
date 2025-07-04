@@ -35,12 +35,27 @@ namespace kitapsepetimvc.Controllers
                     b.Title,
                     b.Author,
                     b.Price,
-                    b.ImageUrl,
-                    Stock = b.Stock
+                    ImageUrl = Url.Content("~" + b.ImageUrl), 
+                    b.Stock
                 })
+
                 .ToListAsync();
 
             return Json(results);
+        }
+
+        public async Task<IActionResult> Details(int id)
+        {
+            var book = await _context.Books
+                .Include(b => b.Category)
+                .FirstOrDefaultAsync(b => b.Id == id);
+
+            if (book == null)
+            {
+                return NotFound();
+            }
+
+            return View(book);
         }
 
 

@@ -25,13 +25,13 @@
   <ItemGroup>
     <None Remove="Views\Book\" />
     <None Remove="Views\Order\" />
-    <None Remove="Views\Cart\" />
     <None Remove="Views\User\" />
+    <None Remove="Views\CartItem\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Book\" />
     <Folder Include="Views\Order\" />
-    <Folder Include="Views\Cart\" />
     <Folder Include="Views\User\" />
+    <Folder Include="Views\CartItem\" />
   </ItemGroup>
 </Project>

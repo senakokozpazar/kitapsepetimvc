@@ -1,4 +1,33 @@
-﻿@page
+﻿@model List<kitapsepetimvc.Models.Book>
+
 @{
+    ViewData["Title"] = "Kitaplar";
 }
 
+<h2>@ViewData["Title"]</h2>
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+    @foreach (var book in Model)
+    {
+        <div class="col">
+            <div class="card h-100 shadow-sm">
+                <a asp-action="Details" asp-route-id="@book.Id" class="text-decoration-none text-dark">
+                    <img src="@Url.Content($"~{book.ImageUrl}")" class="card-img-top" alt="@book.Title" style="height: 250px; object-fit: cover; padding: 1rem;" />
+                    <div class="card-body">
+                        <h5 class="card-title">@book.Title</h5>
+                        <p class="card-text text-muted mb-1">Yazar: @book.Author</p>
+                        <p class="card-text fw-bold text-primary">@book.Price.ToString("C")</p>
+                    </div>
+                </a>
+                @if (book.Stock > 0)
+                {
+                    <span class="badge bg-success mx-3 mb-3">Stokta Var</span>
+                }
+                else
+                {
+                    <span class="badge bg-danger mx-3 mb-3">Stokta Yok</span>
+                }
+            </div>
+        </div>
+    }
+</div>

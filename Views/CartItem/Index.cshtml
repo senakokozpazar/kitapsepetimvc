@@ -1,0 +1,73 @@
+﻿@model List<kitapsepetimvc.Models.CartItem>
+@{
+    ViewData["Title"] = "Sepetim";
+}
+
+<div class="container mt-4 mb-5">
+    <h2 class="mb-4">Sepetim</h2>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-warning text-center" role="alert">
+            Sepetinizde ürün bulunmamaktadır.
+        </div>
+        <div class="text-center mt-3">
+            <a href="/" class="btn btn-outline-primary">Alışverişe Devam Et</a>
+        </div>
+    }
+    else
+    {
+        <table class="table table-bordered align-middle">
+            <thead class="table-light">
+                <tr>
+                    <th>Kitap</th>
+                    <th>Adet</th>
+                    <th>Fiyat</th>
+                    <th>Ara Toplam</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <strong>@item.Book.Title</strong><br />
+                            <small class="text-muted">@item.Book.Author</small>
+                        </td>
+                        <td>
+                            <form method="post" asp-controller="CartItem" asp-action="UpdateQuantity" class="d-flex gap-2">
+                                <input type="hidden" name="cartItemId" value="@item.Id" />
+                                <input type="number" name="quantity" min="1" value="@item.Quantity" class="form-control form-control-sm w-50" />
+                                <button type="submit" class="btn btn-outline-secondary btn-sm">Güncelle</button>
+                            </form>
+                        </td>
+                        <td>@item.Book.Price.ToString("C")</td>
+                        <td>@(item.Quantity * item.Book.Price)</td>
+                        <td>
+                            <form method="post" asp-action="RemoveFromCart">
+                                <input type="hidden" name="cartItemId" value="@item.Id" />
+                                <button type="submit" class="btn btn-danger btn-sm">
+                                    <i class="bi bi-trash"></i> Kaldır
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="text-end fw-bold">Toplam:</td>
+                    <td colspan="2" class="fw-bold text-primary">
+                        @Model.Sum(item => item.Quantity * item.Book.Price).ToString("C")
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <div class="d-flex justify-content-between mt-4">
+            <a href="/" class="btn btn-outline-primary">Alışverişe Devam Et</a>
+            <a href="/Order/Checkout" class="btn btn-success">Siparişi Tamamla</a>
+        </div>
+    }
+</div>

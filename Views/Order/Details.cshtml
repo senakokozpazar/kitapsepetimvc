@@ -1,0 +1,34 @@
+﻿@model kitapsepetimvc.Models.Order
+
+@{
+    ViewData["Title"] = "Sipariş Detayları";
+}
+
+<h2>Sipariş Detayları - @Model.Id</h2>
+
+<p><strong>Kullanıcı ID:</strong> @Model.UserId</p>
+<p><strong>Sipariş Tarihi:</strong> @Model.OrderDate.ToString("dd.MM.yyyy HH:mm")</p>
+<p><strong>Sipariş Durumu:</strong> @Model.Status</p>
+
+<h4>Kitaplar:</h4>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Başlık</th>
+            <th>Adet</th>
+            <th>Birim Fiyat</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.OrderItems)
+        {
+            <tr>
+                <td>@item.Book.Title</td>
+                <td>@item.Quantity</td>
+                <td>@item.UnitPrice.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Index" class="btn btn-primary">Geri Dön</a>

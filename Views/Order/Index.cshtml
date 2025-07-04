@@ -1,4 +1,96 @@
-﻿@page
+﻿@model List<kitapsepetimvc.Models.OrderViewModel>
 @{
+    ViewData["Title"] = "Siparişlerim";
 }
 
+<div class="container mt-4">
+    <h2>Siparişlerim</h2>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Sipariş No</th>
+                        <th>Tarih</th>
+                        <th>Durum</th>
+                        <th>Teslimat Durumu</th>
+                        <th>Ödeme Tutarı</th>
+                        <th>Ödeme Durumu</th>
+                        <th>İşlemler</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var order in Model)
+                    {
+                        <tr>
+                            <td>#@order.Id</td>
+                            <td>@order.OrderDate.ToString("dd.MM.yyyy HH:mm")</td>
+                            <td>
+                                <span class="badge bg-info">@order.Status</span>
+                            </td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(order.DeliveryStatus))
+                                {
+                                    <span class="badge bg-warning">@order.DeliveryStatus</span>
+                                }
+                                else
+                                {
+                                    <span class="text-muted">Bilgi yok</span>
+                                }
+                            </td>
+                            <td>
+                                @if (order.PaymentAmount.HasValue)
+                                {
+                                    @order.PaymentAmount.Value.ToString("C")
+                                }
+                                else
+                                {
+                                    <span class="text-muted">-</span>
+                                }
+                            </td>
+                            <td>
+                                @if (order.IsPaid.HasValue && order.IsPaid.Value)
+                                {
+                                    <span class="badge bg-success">Ödendi</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-danger">Ödenmedi</span>
+                                }
+                            </td>
+                            <td>
+                                <a asp-action="Details" asp-route-id="@order.Id" class="btn btn-sm btn-primary">
+                                    Detaylar
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info">
+            <p class="mb-0">Henüz hiç siparişiniz bulunmamaktadır.</p>
+        </div>
+    }
+</div>
